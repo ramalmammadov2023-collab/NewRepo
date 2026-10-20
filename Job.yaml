@@ -35,7 +35,7 @@ spec:
         imagePullPolicy: IfNotPresent
         # Arguments passed to /expo (the ENTRYPOINT): base 2, exponent 10
         # Expected output: 2 ^ 10 = 1024
-        args: ["2", "10"]
+        args: ["5", "3"]
         # CPU and memory settings
         resources:
           # Hard ceiling: the container cannot go above this
